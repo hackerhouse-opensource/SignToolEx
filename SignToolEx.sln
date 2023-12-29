@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SignToolEx", "SignToolEx\SignToolEx.vcxproj", "{B8AEE3F1-0642-443C-B42C-33BADCD42365}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SignToolExHook", "SignToolExDll\SignToolExDll.vcxproj", "{82B0EE92-347E-412F-8EA2-CBDE683EDA57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C2E3BDE-114F-4678-9C23-61C64DEB74D5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Debug|x64.ActiveCfg = Debug|x64
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Debug|x64.Build.0 = Debug|x64
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Debug|x86.Build.0 = Debug|Win32
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Release|x64.ActiveCfg = Release|x64
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Release|x64.Build.0 = Release|x64
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Release|x86.ActiveCfg = Release|Win32
+		{B8AEE3F1-0642-443C-B42C-33BADCD42365}.Release|x86.Build.0 = Release|Win32
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Debug|x64.ActiveCfg = Debug|x64
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Debug|x64.Build.0 = Debug|x64
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Debug|x86.ActiveCfg = Debug|Win32
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Debug|x86.Build.0 = Debug|Win32
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Release|x64.ActiveCfg = Release|x64
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Release|x64.Build.0 = Release|x64
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Release|x86.ActiveCfg = Release|Win32
+		{82B0EE92-347E-412F-8EA2-CBDE683EDA57}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB897C46-37F4-4862-B498-F4DEA3898A10}
+	EndGlobalSection
+EndGlobal
