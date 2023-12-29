@@ -10,7 +10,7 @@ This tool is used in the same way as "signtool.exe" by simply running "SignToolE
 needs SignToolExHook.dll in the current directory and "signtool.exe" in your %PATH%.
 
 ```
-C:\tools\SignToolEx>SignToolEx.exe sign /v /f nvidia0.pfx /p **redacted** /fd SHA256 c:\temp\malware.exe
+C:\tools\SignToolEx>SignToolEx.exe sign /v /f nvidia0.pfx /p **redacted** /fd SHA256 c:\temp\bin.exe
 The following certificate was selected:
     Issued to: NVIDIA Corporation
     Issued by: VeriSign Class 3 Code Signing 2010 CA
@@ -18,7 +18,7 @@ The following certificate was selected:
     SHA1 hash: 30632EA310114105969D0BDA28FDCE267104754F
 
 Done Adding Additional Store
-Successfully signed: c:\temp\malware.exe
+Successfully signed: c:\temp\bin.exe
 
 Number of files successfully Signed: 1
 Number of warnings: 0
